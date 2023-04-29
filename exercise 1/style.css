@@ -1,0 +1,70 @@
+/*Selector{
+	Property: Value;
+}*/
+
+body{
+	background-image: url(bgimage.jpg);
+	background-size: cover;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+}
+
+h2{
+	text-align: center;
+	color: #FFF0AA;
+	border: 5px dashed rgba(212, 194, 106, 0.3);
+	cursor: crosshair;
+}
+
+p{
+	font-size: 20px;
+	color: white;
+	line-height: 20px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+span{
+	font-size: 2em;
+}
+
+#div1 .webtext:first-child{
+	color: yellow;
+}
+
+#div1{
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+#div2{
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
+div .active{
+	color:black;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	color: darkred;
+}
+
+.boxmodel{
+	color: white;
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	margin: 0px 20px;
+	width: 50px;
+	height: 40px;
+}
